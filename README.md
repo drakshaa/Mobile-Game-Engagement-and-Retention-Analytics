@@ -53,4 +53,4 @@ OLS on total revenue: session count and max level reached are the two significan
 ## Notes
 
 - Built without `statsmodels` (not available in the environment) — the regression inference (standard errors, p-values) is computed directly from the model math instead of a stats library, so the numbers are the same, just derived by hand.
-- The Power BI dashboard spec is fully written (DAX + build guide), but I don't have Power BI Desktop to export an actual `.pbix`. There's an interactive HTML version in `powerbi/interactive_dashboard.html` that mirrors the same four pages if you want something to open immediately.
+- The Power BI dashboard spec is fully written (DAX + build guide)
