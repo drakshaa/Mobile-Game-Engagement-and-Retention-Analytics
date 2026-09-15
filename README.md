@@ -8,13 +8,13 @@ Since I didn't have a real game's data to use, I generated a synthetic dataset (
 
 - **SQL** — cohort retention (D1/D7/D30) using CTEs, window functions, CASE statements
 - **Python** — KPI automation, logistic + OLS regression, A/B testing with significance tests and confidence intervals
-- **Power BI** — DAX measures and a dashboard build guide (plus a standalone HTML version you can open without Power BI installed)
+- **Power BI** — DAX measures and a dashboard build guide 
 
 ## Structure
 data/ generated CSVs + SQLite db
 sql/ schema + cohort/KPI queries
 python/ data gen, KPI automation, regression, A/B testing
-powerbi/ DAX measures, dashboard guide, interactive HTML dashboard
+powerbi/ DAX measures, interactive dashboard
 outputs/ charts, regression tables, A/B results
 
 
