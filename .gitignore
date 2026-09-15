@@ -1,0 +1,32 @@
+# VS Code Code Runner temp file (this is what bit you)
+tempCodeRunnerFile.py
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+venv/
+env/
+.venv/
+
+# Data / generated outputs (regeneratable by running the scripts)
+data/*.csv
+data/*.db
+outputs/figures/*.png
+outputs/reports/*.csv
+powerbi/data_for_powerbi/*.csv
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets (if you ever add API keys, DB creds, etc.)
+.env
+*.key
+
+# Power BI (if you build the real .pbix later)
+*.pbix.bak
+~$*.pbix
